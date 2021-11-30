@@ -6,6 +6,8 @@ This is the official implementation code for the paper "PlantStereo: A Stereo Ma
 
 PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction
 
+[](https://arxiv.org/submit/4051570/view)
+
 Qingyu Wang, Baojian Ma, Wei Liu, Mingzhao Lou, Mingchuan Zhou*, Huanyu Jiang and Yibin Ying
 
 College of Biosystems Engineering and Food Science, Zhejiang University.
@@ -22,9 +24,9 @@ College of Biosystems Engineering and Food Science, Zhejiang University.
 
 ## Analysis
 
-<img src="D:\Users\王清玉\Desktop\PlantStereo\imgs\disparity distribution.png" alt="disparity distribution" style="zoom:50%;" />
+We evaluated the disparity distribution of different stereo matching datasets.
 
-
+![](D:\Users\王清玉\Desktop\PlantStereo\imgs\disparity distribution.png)
 
 ## Format
 
