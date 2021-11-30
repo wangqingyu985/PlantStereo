@@ -151,11 +151,7 @@ If you use our PlantStereo dataset in your research, please cite this publicatio
 
 ## Acknowledgements
 
-This project is mainly based on:
-
-[zed-python-api](https://github.com/stereolabs/zed-python-api)
-
-[mecheye_python_interface](https://github.com/MechMindRobotics/mecheye_python_interface)
+This project is mainly based on: [zed-python-api](https://github.com/stereolabs/zed-python-api) and [mecheye_python_interface](https://github.com/MechMindRobotics/mecheye_python_interface), thanks to the authors.
 
 ## Contact
 
