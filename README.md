@@ -26,7 +26,7 @@ College of Biosystems Engineering and Food Science, Zhejiang University.
 
 We evaluated the disparity distribution of different stereo matching datasets.
 
-<img src="/imgs/disparity_distribution.png" width="60%" >
+<img src="/imgs/disparity distribution.png" width="60%" >
 
 ## Format
 
