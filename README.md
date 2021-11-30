@@ -20,6 +20,10 @@ College of Biosystems Engineering and Food Science, Zhejiang University.
 | **Pumpkin** |  80   |     20     |  50  | 150  |  1024×571  |
 |   **All**   |  470  |    110     | 232  | 812  |            |
 
+## Analysis
+
+<img src="D:\Users\王清玉\Desktop\PlantStereo\imgs\disparity distribution.png" alt="disparity distribution" style="zoom:50%;" />
+
 
 
 ## Format
