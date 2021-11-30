@@ -98,7 +98,43 @@ You can use the following links to download out PlantStereo dataset.
 
 ## Usage
 
+- sample.py
 
+To construct the dataset, you can run the code in sample.py in your terminal:
+
+```python
+conda activate <your_anaconda_virtual_environment>
+python sample.py --num 0
+```
+
+We can registrate the image and transformate the coordinate through function mech_zed_alignment():
+
+```python
+def mech_zed_alignment(depth, mech_height, mech_width, zed_height, zed_width):
+    ground_truth = np.zeros(shape=(zed_height, zed_width), dtype=float)
+    for v in range(0, mech_height):
+        for u in range(0, mech_width):
+            i_mech = np.array([[u], [v], [1]], dtype=float)  # 3*1
+            p_i_mech = np.dot(np.linalg.inv(K_MECH), i_mech * depth[v, u])  # 3*1
+            p_i_zed = np.dot(R_MECH_ZED, p_i_mech) + T_MECH_ZED  # 3*1
+            i_zed = np.dot(K_ZED_LEFT, p_i_zed) * (1 / p_i_zed[2])  # 3*1
+            disparity = ZED_BASELINE * ZED_FOCAL_LENGTH * 1000 / p_i_zed[2]
+            u_zed = i_zed[0]
+            v_zed = i_zed[1]
+            coor_u_zed = round(u_zed[0])
+            coor_v_zed = round(v_zed[0])
+            if coor_u_zed < zed_width and coor_v_zed < zed_height:
+                ground_truth[coor_v_zed][coor_u_zed] = disparity
+    return ground_truth
+```
+
+- epipole_rectification.py
+
+  After collecting the left, right and disparity images throuth sample.py, we can perform epipole rectification on left and right images through epipole_rectification.py:
+
+  ```python
+  python epipole_rectification.py
+  ```
 
 ## Contact
 
