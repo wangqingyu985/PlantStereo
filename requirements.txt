@@ -1,0 +1,3 @@
+opencv_contrib_python_headless==3.4.3.18
+matplotlib==2.2.2
+numpy==1.14.3
