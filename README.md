@@ -24,9 +24,59 @@ College of Biosystems Engineering and Food Science, Zhejiang University.
 
 ## Format
 
+The data was organized as the following format, where the sub-pixel level disparity images are saved as **.tiff** format, and the pixel level disparity images are saved as **.png** format.
+
+```
+PlantStereo
+
+├── PlantStereo2021
+
+│          ├── tomato
+
+│          │          ├── training
+
+│          │          │         ├── left_view
+
+│          │          │          │         ├── 000000.png
+
+│          │          │          │         ├── 000001.png
+
+│          │          │          │         ├── ......
+
+│          │          │          ├── right_view
+
+│          │          │          │         ├── ......
+
+│          │          │          ├── disp
+
+│          │          │          │         ├── ......
+
+│          │          │          ├── disp_high_acc
+
+│          │          │          │         ├── 000000.tiff
+
+│          │          │          │         ├── ......
+
+│          │          ├── testing
+
+│          │          │          ├── left_view
+
+│          │          │          ├── right_view
+
+│          │          │          ├── disp
+
+│          │          │          ├── disp_high_acc
+
+│          ├── spinach
+
+│          ├── ......
+```
+
 
 
 ## Download
+
+You can use the following links to download out PlantStereo dataset.
 
 ###### Baidu Netdisk link
 
