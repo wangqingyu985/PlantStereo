@@ -136,6 +136,27 @@ def mech_zed_alignment(depth, mech_height, mech_width, zed_height, zed_width):
   python epipole_rectification.py
   ```
 
+## Citation
+
+If you use our PlantStereo dataset in your research, please cite this publication:
+
+```tex
+@misc{PlantStereo,
+    title={PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction},
+    author={Qingyu Wang, Baojian Ma, Wei Liu, Mingzhao Lou, Mingchuan Zhou, Huanyu Jiang and Yibin Ying},
+    howpublished = {\url{https://github.com/wangqingyu985/PlantStereo}},
+    year={2021}
+}
+```
+
+## Acknowledgements
+
+This project is mainly based on:
+
+[zed-python-api](https://github.com/stereolabs/zed-python-api)
+
+[mecheye_python_interface](https://github.com/MechMindRobotics/mecheye_python_interface)
+
 ## Contact
 
 If you have any questions, please do not hesitate to contact us through E-mail!
