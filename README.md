@@ -4,7 +4,7 @@ This is the official implementation code for the paper "PlantStereo: A Stereo Ma
 
 ## Paper
 
-PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction[preprint](https://arxiv.org/submit/4051570/view)
+PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction[[preprint]](https://arxiv.org/submit/4051570/view)
 
 Qingyu Wang, Baojian Ma, Wei Liu, Mingzhao Lou, Mingchuan Zhou*, Huanyu Jiang and Yibin Ying
 
@@ -12,7 +12,11 @@ College of Biosystems Engineering and Food Science, Zhejiang University.
 
 ## Example and Overview
 
+We give an example of our dataset, including spinach, tomato, pepper and pumpkin.
+
 <img src="/imgs/example.png" width="100%" >
+
+The data size and the resolution of the images are listed as follows:
 
 |   Subset    | Train | Validation | Test | All  | Resolution |
 | :---------: | :---: | :--------: | :--: | :--: | :--------: |
