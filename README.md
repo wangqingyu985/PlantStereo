@@ -4,15 +4,15 @@ This is the official implementation code for the paper "PlantStereo: A Stereo Ma
 
 ## Paper
 
-PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction
-
-[](https://arxiv.org/submit/4051570/view)
+PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction[preprint](https://arxiv.org/submit/4051570/view)
 
 Qingyu Wang, Baojian Ma, Wei Liu, Mingzhao Lou, Mingchuan Zhou*, Huanyu Jiang and Yibin Ying
 
 College of Biosystems Engineering and Food Science, Zhejiang University.
 
 ## Example and Overview
+
+<img src="/imgs/example.png" width="100%" >
 
 |   Subset    | Train | Validation | Test | All  | Resolution |
 | :---------: | :---: | :--------: | :--: | :--: | :--------: |
@@ -89,6 +89,10 @@ You can use the following links to download out PlantStereo dataset.
 
 
 ###### Google Drive link
+
+
+
+## Usage
 
 
 
