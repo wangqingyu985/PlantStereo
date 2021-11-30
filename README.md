@@ -6,7 +6,7 @@ This is the official implementation code for the paper "PlantStereo: A Stereo Ma
 
 PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction[[preprint]](https://arxiv.org/submit/4051570/view)
 
-Qingyu Wang, Baojian Ma, Wei Liu, Mingzhao Lou, Mingchuan Zhou*, Huanyu Jiang and Yibin Ying
+Qingyu Wang, [Baojian Ma](https://github.com/baojianma), [Wei Liu](https://github.com/284637783), Mingzhao Lou, [Mingchuan Zhou](https://github.com/zhoushuai123)*, Huanyu Jiang and Yibin Ying
 
 College of Biosystems Engineering and Food Science, Zhejiang University.
 
@@ -159,6 +159,6 @@ This project is mainly based on:
 
 ## Contact
 
-If you have any questions, please do not hesitate to contact us through E-mail!
+If you have any questions, please do not hesitate to contact us through E-mail or issue, we will reply as soon as possible.
 
 12013027@zju.edu.cn or mczhou@zju.edu.cn
