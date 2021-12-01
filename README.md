@@ -88,13 +88,7 @@ PlantStereo
 
 You can use the following links to download out PlantStereo dataset.
 
-###### Baidu Netdisk link
-
-
-
-###### Google Drive link
-
-
+###### [Google Drive link：](https://drive.google.com/file/d/171GHcniSTh3NvWbTXsHjIa3KeU3qu8tL/view?usp=sharing)
 
 ## Usage
 
