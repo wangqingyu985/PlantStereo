@@ -135,11 +135,11 @@ def mech_zed_alignment(depth, mech_height, mech_width, zed_height, zed_width):
 If you use our PlantStereo dataset in your research, please cite this publication:
 
 ```tex
-@misc{PlantStereo,
-    title={PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction},
-    author={Qingyu Wang, Baojian Ma, Wei Liu, Mingzhao Lou, Mingchuan Zhou, Huanyu Jiang and Yibin Ying},
-    howpublished = {\url{https://github.com/wangqingyu985/PlantStereo}},
-    year={2021}
+@article{wang2021plantstereo,
+  title={PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction},
+  author={Wang, Qingyu and Ma, Baojian and Liu, Wei and Lou, Mingzhao and Zhou, Mingchuan and Jiang, Huanyu and Ying, Yibin},
+  journal={arXiv preprint arXiv:2111.15192},
+  year={2021}
 }
 ```
 
