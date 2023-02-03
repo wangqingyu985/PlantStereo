@@ -1,12 +1,10 @@
 # PlantStereo
 
-This is the official implementation code for the paper "PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction".
+This is the official implementation code for the paper "PlantStereo: A High Quality Stereo Matching Dataset for Plant Reconstruction".
 
 ## Paper
 
-PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction[[preprint]](https://arxiv.org/submit/4051570/view)
-
-[Qingyu Wang](https://github.com/wangqingyu985), [Baojian Ma](https://github.com/baojianma), [Wei Liu](https://github.com/284637783), Mingzhao Lou, [Mingchuan Zhou](https://github.com/zhoushuai123)*, [Huanyu Jiang](https://person.zju.edu.cn/0093262) and [Yibin Ying](https://person.zju.edu.cn/0089059)
+PlantStereo: A High Quality Stereo Matching Dataset for Plant Reconstruction[[link]](https://www.mdpi.com/2077-0472/13/2/330)
 
 College of Biosystems Engineering and Food Science, Zhejiang University.
 
@@ -135,11 +133,15 @@ def mech_zed_alignment(depth, mech_height, mech_width, zed_height, zed_width):
 If you use our PlantStereo dataset in your research, please cite this publication:
 
 ```tex
-@article{wang2021plantstereo,
-  title={PlantStereo: A Stereo Matching Benchmark for Plant Surface Dense Reconstruction},
-  author={Wang, Qingyu and Ma, Baojian and Liu, Wei and Lou, Mingzhao and Zhou, Mingchuan and Jiang, Huanyu and Ying, Yibin},
-  journal={arXiv preprint arXiv:2111.15192},
-  year={2021}
+@article{wang2023plantstereo,
+  title={PlantStereo: A High Quality Stereo Matching Dataset for Plant Reconstruction},
+  author={Wang, Qingyu and Wu, Dihua and Liu, Wei and Lou, Mingzhao and Jiang, Huanyu and Ying, Yibin and Zhou, Mingchuan},
+  journal={Agriculture},
+  volume={13},
+  number={2},
+  pages={330},
+  year={2023},
+  publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
 
